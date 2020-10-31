@@ -1,0 +1,26 @@
+name:                pandoc-dhall-decoder
+version:             0.1.0.0
+git:                 https://gitlab.com/homotopic-tech/pandoc-dhall-decoder
+license:             BSD3
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "dan.firth@homotopic.tech"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            Decodes pandoc to dhall.
+category:            dhall pandoc
+
+description:         Please see the README on GitHub at <https://github.com/githubuser/pandoc-dhall-decoder#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- dhall
+- either
+- text
+- pandoc
+
+library:
+  source-dirs: src
