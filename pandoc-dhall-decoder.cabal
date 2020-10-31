@@ -5,9 +5,8 @@ cabal-version: 1.12
 -- see: https://github.com/sol/hpack
 
 name:           pandoc-dhall-decoder
-version:        0.1.0.0
+version:        0.1.0.1
 synopsis:       Decodes pandoc to dhall.
-description:    Please see the README on GitHub at <https://github.com/githubuser/pandoc-dhall-decoder#readme>
 category:       dhall pandoc
 author:         Daniel Firth
 maintainer:     dan.firth@homotopic.tech
