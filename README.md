@@ -5,7 +5,7 @@ This module allows you to decode a `Pandoc` value using any `Text.Pandoc.Readers
 You should use newtypes like so:
 
 ```
-newtype MyDoc = Project Pandoc
+newtype MyDoc = MyDoc Pandoc
   deriving stock (Eq, Show, Generic)
 
 instance D.FromDhall MyDoc where
